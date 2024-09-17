@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de devises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Convertisseur de devises</h1>
+
+        <label for="amount">Montant à convertir</label>
+        <input type="number" id="amount" placeholder="Entrez le montant">
+
+        <label for="from-currency">De</label>
+        <select id="from-currency">
+            <option value="EUR">EUR - Euro</option>
+            <option value="USD">USD - Dollar américain</option>
+            <option value="JPY">JPY - Yen japonais</option>
+        </select>
+
+        <label for="to-currency">Vers</label>
+        <select id="to-currency">
+            <option value="EUR">EUR - Euro</option>
+            <option value="USD">USD - Dollar américain</option>
+            <option value="JPY">JPY - Yen japonais</option>
+        </select>
+
+        <button id="convertir">Convertir</button>
+
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>
+
