@@ -1,4 +1,4 @@
 # Projet devise
-# HTML : Julie
-# CSS: Kinsey
-# Javascript: Sophie
+HTML : Julie
+CSS: Kinsey
+Javascript: Sophie
