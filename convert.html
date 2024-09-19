@@ -7,32 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="converter-container">
-        <h1>Convertisseur de devises</h1>
+        <section>
+            <h1>Convertisseur de devises</h1>
 
-        <label for="amount">Montant à convertir</label>
-        <input type="number" id="amount" placeholder="Entrez le montant">
-
-        <label for="from-currency">De</label>
-        <select id="from-currency">
-            <option value="EUR">EUR - Euro</option>
-            <option value="USD">USD - Dollar américain</option>
-            <option value="JPY">JPY - Yen japonais</option>
-        </select>
-
-        <label for="to-currency">Vers</label>
-        <select id="to-currency">
-            <option value="EUR">EUR - Euro</option>
-            <option value="USD">USD - Dollar américain</option>
-            <option value="JPY">JPY - Yen japonais</option>
-        </select>
-
-        <label for="result">Résultat</label>
-        <input type="result">
-
-        <!--<button id="convertir">Convertir</button>-->
-
-        <div class="result" id="result"></div>
-    </div>
+            <div class="Montant">
+                <h2>Montant</h2>
+                <input id="somme" type="number" placeholder="Entrer le montant à convertir">
+                <p>De</p>
+                <select id="devise_input"></select>
+            </div>
+            <div class="Resultat">
+                <p>Vers</p>
+                <select id="devise_output"></select>
+                <h2>Résultat</h2>
+                <p id="resultat">Résultat de la conversion</p>
+            </div>
+        </section>
+    
+        <script src="javascript.js"></script>
 </body>
 </html>
